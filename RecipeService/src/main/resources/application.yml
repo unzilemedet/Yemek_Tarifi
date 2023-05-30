@@ -1,0 +1,20 @@
+server:
+  port: 7070
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: yemekTarifi
+      username: YemekTarifiUser
+      password: root
+  rabbitmq:
+    host: localhost
+    port: 15672
+    username: java7
+    password: root
+
+rabbitmq:
+  exchange: exchange
+  queueCreateRecipe: queue-recipe
+  bindingKeyCreateRecipe: binding-recipe

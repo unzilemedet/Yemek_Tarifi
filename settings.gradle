@@ -1,0 +1,9 @@
+rootProject.name = 'Yemek_Tarifi'
+include 'AuthService'
+include 'AuthService'
+include 'UserService'
+include 'CommentService'
+include 'MailService'
+include 'RecipeService'
+include 'ApiGatewayService'
+
